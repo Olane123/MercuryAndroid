@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505117536743",
+    "project_id": "mercury-messanger",
+    "storage_bucket": "mercury-messanger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505117536743:android:c810af1fa207f157f18d42",
+        "android_client_info": {
+          "package_name": "com.olaneteam.MercuryAndroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJJsuEWsrljqLYzbHVI_CYueA5Js87LlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
