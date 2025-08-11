@@ -42,8 +42,6 @@ public class RegisterActivity extends AppCompatActivity {
         Button switchPage = findViewById(R.id.btn_switchPageToLogin);
 
         registerConfirm.setOnClickListener(v -> {
-            if (passwordInput.getText().toString() == passwordInputConfirm.getText().toString())
-            {
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(emailInput.getText().toString(), passwordInputConfirm.getText().toString())
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful())
@@ -55,7 +53,6 @@ public class RegisterActivity extends AppCompatActivity {
                                         .setValue(userinfo);
                             }
                         });
-            }
         });
 
         switchPage.setOnClickListener(v -> {
